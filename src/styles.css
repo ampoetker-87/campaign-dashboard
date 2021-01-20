@@ -1,0 +1,312 @@
+
+#root {
+  display: flex;
+
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #2a9d8f;
+}
+
+.App {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  background-color: #2a9d8f;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+  height: 100% !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+.appbar {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+  top: 0;
+  left: auto;
+  right: 0;
+  z-index: 1300;
+  position: fixed;
+  background-color: #264653;
+}
+
+/* NAVIGATION and CARD STYLES */
+
+.list-icon svg {
+  fill: #e76f51;
+}
+
+.MuiTypography-root {
+  font-family: "Poppins", sans-serif;
+}
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.MuiTypography-body1 {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.MuiListItemText-primary {
+  color: #e76f51;
+}
+
+.MuiAppBar-root {
+  background-color: #264653;
+}
+
+.intro {
+  color: #264653;
+  text-align: center;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 200px;
+  margin: 16px;
+  float: center;
+  vertical-align: top;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note-footer {
+  font-size: 10px;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #e76f51;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #e76f51;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+
+/*Cards*/
+
+.MuiCardHeader-root {
+  background-color: #264653;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.MuiCardHeader-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+/*Campaign*/
+
+.campaign {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 30px;
+  width: 94%;
+  margin: 3%;
+  float: center;
+  vertical-align: top;
+  text-align: left;
+}
+.campaign h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.campaign p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.campaign-footer {
+  font-size: 10px;
+}
+
+.campaign button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #e76f51;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  background: none;
+}
+
+.campaign-heading {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  color: #4a4a4a;
+}
+
+.campaign-div {
+  margin: 20px;
+}
+
+form.create-campaign {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 50px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+
+
+.create-campaign input {
+  width: auto;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+
+.create-campaign textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+
+.create-campaign button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #e76f51;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.picker-dialog {
+  margin-top: 3%;
+  margin-left: 100px;
+}
+
+.picker-button {
+  position: absolute;
+  float: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #e76f51;
+}
+
+
+
+.checkboxes {
+  margin: 20px;
+}
+
+.date {
+  margin: 10px 10px 20px 10px;
+}
+
+/*LOGINS*/
+
+.logins button {
+  position: relative;
+  font-weight: 700;
+  float: center;
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: #e76f51;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.login-link {
+  text-decoration: none;
+  color: white;
+}
+
